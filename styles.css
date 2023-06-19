@@ -1,5 +1,10 @@
 body {
 	background: black;
+    font-family: "Handlee", sans-serif;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
 }
 .postcard {
 	background-color: white;
@@ -18,7 +23,9 @@ body {
 .postcard-header h1 {
 	width: 400px;
 	margin: 0;
-	padding: 10px;
+	padding: 15px;
+	padding-top: 20px;
+	font-size: 25px;
 }
 .postcard-body {
 	display: flex;
@@ -28,20 +35,23 @@ body {
 }
 .body-left,
 .body-right {
-	padding: 10px;
+	padding: 15px;
 }
 input[type="text"] {
 	border: none;
 	border-bottom: 2px solid grey;
 	padding: 5px;
+	font-family: "Handlee", sans-serif;
+	text-align: left;
 }
 p {
-	font-size: medium;
+	font-size: 15px;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
 	background-color: grey;
-	padding: 10px;
+	padding: 5px;
+	font-family: "Handlee", sans-serif;
 }
